@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="user"></p>
+
+<script>
+const myObject = {
+  message:"Hello",
+  firstName:"harshitha",
+  lastName: "kuruba",
+  fullName: function() {
+    return this.message +" " +this.firstName + " " + this.lastName;
+  }
+}
+document.getElementById("user").innerHTML = myObject.fullName();
+</script>
+
+</body>
+</html>
