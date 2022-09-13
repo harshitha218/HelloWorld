@@ -6,11 +6,9 @@
 
 <script>
 const myObject = {
-  message:"Hello",
-  firstName:"harshitha",
-  lastName: "kuruba",
+  message:"Hello harshitha kuruba",
   fullName: function() {
-    return this.message +" " +this.firstName + " " + this.lastName;
+    return console.log(this.message);
   }
 }
 document.getElementById("user").innerHTML = myObject.fullName();
