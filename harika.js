@@ -1,6 +1,6 @@
 const myObject = {
     message:"Hello harshitha kuruba",
-    msg: function() {
+    Test_msg_hello: function() {
       return this.message;
     }
   }
